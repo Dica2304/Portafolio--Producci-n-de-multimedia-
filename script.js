@@ -14,7 +14,7 @@ const projects = [
         category: 'Fotografía',
         description: 'Primera fotografía de una sesión de fotos inspiradas en la película "El Padrino", en estas fotografías a parte de una caracterización, es un juego con la iluminación.',
         tools: ['Lightroom', 'Photoshop', 'Contraluz'],
-        image: 'photos/contraluzelpadrino.png',
+        image: 'contraluzelpadrino.png',
     },
     {
         id: '2b',
@@ -22,7 +22,7 @@ const projects = [
         category: 'Fotografía',
         description: 'Segunda fotografía de la serie inspirada en El Padrino. En esta toma se utiliza iluminación rembrandt, que resalta la simetría del rostro y proyecta una sombra dura en forma de triángulo, aportando elegancia y carácter al retrato. El resultado combina la estética clásica del cine con un estilo contemporáneo de edición en Lightroom y Photoshop.',
         tools: ['Photoshop', 'Lightroom', 'Rembrandt'],
-        image: 'photos/rembrandt.jpg',
+        image: 'rembrandt.jpg',
     },
     {
         id: '2c',
@@ -30,7 +30,7 @@ const projects = [
         category: 'Fotografía',
         description: 'Fotografía capturada con un celular en un día nublado, donde se aplica la ley del horizonte para equilibrar la composición. El contraste de color destaca gracias a la chaqueta roja de la modelo, que rompe con los tonos fríos del entorno y aporta fuerza visual a la escena.',
         tools: ['Samsung A26', 'Ley del horizonte', 'Contraste'],
-        image: 'photos/sofia.jpg',
+        image: 'sofia.jpg',
     },
     {
         id: '2d',
