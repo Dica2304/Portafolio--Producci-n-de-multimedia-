@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Narrativa del Tiempo - Diana Bonilla</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-content">
+                <div class="logo">
+                    <div class="logo-icon">
+                         <img src="logoconfondo.png" alt="Diana Bonilla - La Directora" class="directora-img">
+                    </div>
+                </div>
+
+                <button class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#inicio">▶ INICIO</a></li>
+                    <li><a href="#directora">👤 SOBRE MÍ</a></li>
+                    <li><a href="#episodios">🎬 EPISODIOS</a></li>
+                    <li><a href="#arsenal">🏆 ARSENAL</a></li>
+                    <li><a href="#contacto" class="btn-conectar">✉ CONTÁCTAME</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="container">
+            <h1 class="hero-title">LA NARRATIVA<br>DEL TIEMPO</h1>
+            <p class="hero-subtitle">Proyectos que no solo se ven: se <span class="highlight-primary">experimentan</span> como episodios de una serie.</p>
+            <p class="hero-description">Estás entrando a mi dimensión creativa. Cada pieza es un fragmento de una narrativa mayor.
+            </p>
+
+            <div class="hero-buttons">
+                <button class="btn btn-primary">▶ INICIAR EPISODIOS</button>
+                <button class="btn btn-secondary">✉ CONTÁCTAME</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Directora Section -->
+    <section id="directora" class="directora">
+        <div class="container">
+            <h2 class="section-title"> SOBRE MÍ</h2>
+            <h3 class="section-subtitle">PRODUCTORA MULTIMEDIA</h3>
+
+            <div class="directora-perfil">
+                <img src="yo.png" alt="Diana Bonilla - La Directora" class="directora-img">
+            </div>
+
+            <p class="section-text">
+                Soy <strong class="highlight-primary">Diana Bonilla</strong>, diseñadora multimedia especializada en la creación de contenidos visuales y entornos digitales que combinan tecnología, creatividad y comunicación efectiva.
+            </p>
+
+            <p class="section-text">
+               Mi trabajo se enfoca en el desarrollo de proyectos que integran <strong class="highlight-secondary">animación</strong>, <strong
+                    class="highlight-primary">fotografía conceptual</strong>, <strong
+                    class="highlight-accent">desarrollo web interactivo</strong>, <strong
+                    class="highlight-secondary">producción audiovisual</strong> y
+                    <strong class="highlight-primary">diseño gráfico</strong>; aplicando metodologías profesionales para construir experiencias visuales coherentes, innovadoras y con alto impacto estético.
+            </p>
+
+            <div class="stats-grid">
+                <div class="stat-card stat-primary">
+                    <div class="stat-icon">🎬</div>
+                    <br>
+                    <div class="stat-label">Exploración constante</div>
+                </div>
+                <div class="stat-card stat-accent">
+                    <div class="stat-icon">🏆</div>
+                    <br>
+                    <div class="stat-label">Aprendizaje continuo</div>
+                </div>
+                <div class="stat-card stat-secondary">
+                    <div class="stat-icon">⚡</div>
+                    <br>
+                    <div class="stat-label">Diseño que conecta</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Episodes Section -->
+    <section id="episodios" class="episodios">
+        <div class="container">
+            <h2 class="section-title">🎬 EPISODIOS & TEMPORADAS</h2>
+            <p class="section-description">Explora las diferentes <span class="highlight-primary">temporadas</span> de
+                mi trabajo creativo.</p>
+
+            <!-- Category Filter -->
+            <div class="category-filter" id="categoryFilter">
+                <button class="category-btn active" data-category="Todos">▶ Todos</button>
+                <button class="category-btn" data-category="Animación">▶ Animación</button>
+                <button class="category-btn" data-category="Fotografía">📷 Fotografía</button>
+                <button class="category-btn" data-category="Programación">💻 Programación</button>
+                <button class="category-btn" data-category="Wireframe">💻 Wireframe</button>
+                <button class="category-btn" data-category="Audiovisuales">🎥 Audiovisuales</button>
+                <button class="category-btn" data-category="Pósters">🏆 Pósters</button>
+                <button class="category-btn" data-category="Edición">⚡ Edición</button>
+            </div>
+
+            <!-- Carousel -->
+            <div class="carousel">
+                <div class="carousel-content" id="carouselContent">
+                    <!-- Se llena con JavaScript -->
+                </div>
+
+                <div class="carousel-controls">
+                    <button class="carousel-btn prev" id="prevBtn">◀</button>
+                    <div class="carousel-dots" id="carouselDots"></div>
+                    <button class="carousel-btn next" id="nextBtn">▶</button>
+                </div>
+
+                <p class="carousel-hint">Navega con las flechas o haz clic en los puntos para cambiar de episodio</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Arsenal Section -->
+    <section id="arsenal" class="arsenal">
+        <div class="container">
+            <h2 class="section-title">🏆 ARSENAL DIGITAL</h2>
+            <p class="section-description">Las <span class="highlight-primary">herramientas tecnológicas
+                    avanzadas</span> que utilizo para materializar cada episodio.</p>
+
+            <!-- Skills Grid -->
+            <div class="skills-grid" id="skillsGrid">
+                <!-- Se llena con JavaScript -->
+            </div>
+
+            <!-- Specializations -->
+            <div class="specializations">
+                <div class="spec-card spec-primary">
+                    <h4>⚡ DIRECCIÓN DIGITAL</h4>
+                    <p>Diseño y dirección de piezas digitales interactivas.</p>
+                </div>
+                <div class="spec-card spec-accent">
+                    <h4>🎬 DISEÑO AUDIOVISUAL</h4>
+                    <p>Enfoque en la edición, composición y animación digital para generar un impacto emocional.</p>
+                </div>
+                <div class="spec-card spec-secondary">
+                    <h4>🏆 TECNOLOGÍA CREATIVA</h4>
+                    <p>Uso de herramientas digitales, animación y programación visual para dar vida a ideas innovadoras.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="contacto">
+        <div class="container">
+            <h2 class="section-title">✉ CRÉDITOS & CONEXIÓN</h2>
+            <p class="section-description">¿Listo para crear el próximo episodio juntos?</p>
+
+            <!-- Contact Info -->
+            <div class="contact-info">
+                <div class="contact-column">
+                    <h3>📱 CANALES DE COMUNICACIÓN</h3>
+                    <div class="contact-item">
+                        <span class="contact-icon">📱</span>
+                        <div>
+                            <div class="contact-label">WHATSAPP</div>
+                            <a href="tel:+573005788265" class="contact-link">+57 300 578 8265</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">⏰</span>
+                        <div>
+                            <div class="contact-label">HORARIO OPERATIVO</div>
+                            <div class="contact-text">Lun - Vie: 9:00 AM - 6:00 PM</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-column">
+                    <h3>⚡ REDES SOCIALES</h3>
+                    <a href="https://www.instagram.com/carolina_bt23" target="_blank" class="social-link">📷
+                        Instagram</a>
+                    <a href="https://github.com/Dica2304" target="_blank" class="social-link">💻 GitHub</a>
+                    <a href="https://wa.me/573005788265" target="_blank" class="social-link">📱 WhatsApp</a>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="contact-form-container">
+                <h3>✉ TRANSMISIÓN DIRECTA</h3>
+                <form id="contactForm" class="contact-form">
+                    <div class="form-row">
+                        <input type="text" placeholder="NOMBRE COMPLETO" required>
+                        <input type="email" placeholder="CORREO ELECTRÓNICO" required>
+                    </div>
+                    <input type="text" placeholder="ENCABEZADO DE SOLICITUD">
+                    <textarea placeholder="SOLICITUD" maxlength="500" required></textarea>
+                    <button type="submit" class="btn btn-secondary">✉ ENVIAR</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
