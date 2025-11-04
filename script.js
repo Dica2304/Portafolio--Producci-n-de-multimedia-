@@ -38,7 +38,7 @@ const projects = [
         category: 'Fotografía',
         description: 'Fotografía que explora el contraste entre colores complementarios. El balón morado resalta frente al fondo amarillo, generando una composición dinámica y visualmente atractiva donde el color es el protagonista.',
         tools: ['Samsung A26', 'Contraste', 'Colores complementarios'],
-        image: 'photos/baloncesto.jpg',
+        image: 'baloncesto.jpg',
     },
     {
         id: '2e',
@@ -46,14 +46,14 @@ const projects = [
         category: 'Fotografía',
         description: 'Retrato de una joven con maquillaje de payaso. Rodeada de artesanías colombianas, la imagen combina la inocencia del gesto con la riqueza cromática del entorno, destacando la diversidad y el arte popular del país.',
         tools: ['Samsung A26', 'Retrato', 'Armonías'],
-        image: 'photos/ojitosmentirosos.jpg',
+        image: 'ojitosmentirosos.jpg',
     },
 
      {
         title: 'Pokemamones',
         description: 'Página desarrollada en HTML, CSS y JavaScript inspirada en el mundo Pokémon. Proyecto alojado en GitHub Pages.',
         category: 'Programación',
-        image: 'photos/pokedexdos.png', // aquí va la imagen de portada
+        image: 'pokedexdos.png', // aquí va la imagen de portada
         link: 'https://dica2304.github.io/pokemamones',
         tools: ['HTML', 'CSS', 'JavaScript']
     },
@@ -61,7 +61,7 @@ const projects = [
         title: 'Ajedrez Animado',
         description: 'Página desarrollada en HTML, CSS y Bootstrap inspirada en un Ajedrez, se agregaron animaciones para que sea dinámica',
         category: 'Programación',
-        image: 'photos/ajedrez.png', // aquí va la imagen de portada
+        image: 'ajedrez.png', // aquí va la imagen de portada
         link: 'https://dica2304.github.io/piezasajedrez',
         tools: ['HTML', 'CSS', 'Bootstrap']
     },
@@ -69,7 +69,7 @@ const projects = [
         title: 'Lego Frame',
         description: 'Página desarrollada en HTML, CSS y Bootstrap con el fin de usar animaciones, para esto, se creó un personaje en cuatro posiciones laterales y se animó frame por frame',
         category: 'Programación',
-        image: 'photos/legodos.png', // aquí va la imagen de portada
+        image: 'legodos.png', // aquí va la imagen de portada
         link: 'https://dica2304.github.io/lego-frame',
         tools: ['HTML', 'CSS', 'Bootstrap']
     },
@@ -78,7 +78,7 @@ const projects = [
         title: 'Buho Bar',
         description: 'Wireframe para computador para la página web de un bar',
         category: 'Wireframe',
-        video: 'video/buhobar.mp4', // aquí va la imagen de portada
+        video: 'buhobar.mp4', // aquí va la imagen de portada
         tools: ['Photoshop']
     },
     {
@@ -95,7 +95,7 @@ const projects = [
         category: 'Pósters',
         description: 'Póster en honor a la película, la fotografía fue creada por mí.',
         tools: ['Illustrator', 'Photoshop', 'Fotografía'],
-        image: 'photos/posterelpadrino.jpg',
+        image: 'posterelpadrino.jpg',
     },
     {
         id: '5b',
@@ -103,7 +103,7 @@ const projects = [
         category: 'Pósters',
         description: 'Póster creativo acerca de la diversidad endémica que posee el eje cafetero.',
         tools: ['Illustrator', 'Photoshop'],
-        image: 'photos/ejecafetero.jpg',
+        image: 'ejecafetero.jpg',
     },
     {
         id: '6',
@@ -111,7 +111,7 @@ const projects = [
         category: 'Edición',
         description: 'Trabajo con curvas, para darle vida a las imágenes y poder transmitir con la colorización.',
         tools: ['Lightroom', 'Retoque'],
-        image: 'photos/edicionperro.png',
+        image: 'edicionperro.png',
     },
     {
         id: '6b',
@@ -119,7 +119,7 @@ const projects = [
         category: 'Edición',
         description: 'Colorización en imágenes.',
         tools: ['Lightroom'],
-        image: 'photos/valentinaedicion.png',
+        image: 'valentinaedicion.png',
     },
 ];
 
